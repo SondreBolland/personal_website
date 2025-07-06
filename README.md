@@ -12,7 +12,7 @@ Welcome to my personal portfolio website! This site is built using **Django** as
 - **Frontend:** React (JavaScript)
 - **Styling:** CSS (with custom components)
 
-## 📁 Features
+## Features
 
 - **About Me:** An introduction to who I am and what I do.
 - **Publications:** A list of academic and research publications with toggleable abstracts and external links.
