@@ -21,7 +21,7 @@ const projects = [
     description:
       "This website was made to showcase my academic and personal projects, in addition to teaching myself about web development.",
     website: "https://sondrebolland.com",
-    github: "https://github.com/SondreBolland/FestPlay",
+    github: "https://github.com/SondreBolland/personal_website",
   },
   // Add more projects here
 ];
