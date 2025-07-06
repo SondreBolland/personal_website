@@ -53,7 +53,7 @@ npm start
 ```
 
 ## Folder structure
-
+```
 .
 ├── backend/
 │   └── ... Django app files ...
@@ -62,3 +62,4 @@ npm start
 ├── personal_website/
 │   └── ... settings and url directing ...
 └── README.md
+```
