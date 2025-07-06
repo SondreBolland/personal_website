@@ -1,0 +1,53 @@
+.publication {
+  margin-bottom: 2rem;
+}
+
+button {
+  margin-top: 0.5rem;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+.abstract {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #f9f9f9;
+  border-left: 3px solid #ccc;
+  white-space: pre-line;
+}
+
+.publications-container {
+  width: 100%;
+  max-width: 900px; /* or whatever max width you want */
+  margin: 0 auto;   /* center on page */
+  display: block;   /* default block */
+}
+
+.publication-card {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+  width: 100%; /* ✅ Ensures full width of parent */
+  box-sizing: border-box; /* ✅ Prevents padding from exceeding 100% */
+}
+
+.publication-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.abstract {
+  padding: 0.75rem 1rem 1.5rem;
+  font-style: italic;
+  background: #f0f0f0;
+  border-radius: 0 0 1rem 1rem;
+  margin-top: -1rem;
+}

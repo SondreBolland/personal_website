@@ -1,0 +1,75 @@
+.top-pane {
+  height: 62vh; /* 70% of viewport height */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+.top-pane-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/*.name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}*/
+
+.nav-bar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-container { 
+  display: flex;
+  flex-direction: column;       /* Stack vertically */
+  align-items: center;          /* Center horizontally */
+  gap: 0rem;                  /* Smaller gap between name and position */
+  padding: 0rem 2rem;           /* Add padding for nicer spacing */
+  margin: 0 auto;
+  width: fit-content;           /* Fits content but with padding */
+  z-index: 10;
+  color: #ffffff;
+}
+
+.title-container h1,
+.title-container h3 {
+  margin: 0;             /* Removes default vertical margin */
+  padding: 0;
+}
+
+.title-container h1 {
+  margin-bottom: 0rem; /* Optional fine-tuned spacing between name and position */
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

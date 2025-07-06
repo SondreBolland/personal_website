@@ -1,0 +1,33 @@
+.footer {
+  background-color: #f9f9f9;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: 4rem;
+}
+
+.contact-info h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.contact-info p {
+  margin: 0.4rem 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-info a {
+  color: #0077b5;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
