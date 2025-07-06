@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -27,11 +28,14 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       "process.env": {
-        // This has effect on the react lib size
         "process.env.NODE_ENV": JSON.stringify(
           process.env.NODE_ENV || "development"
         ),
       },
+    }),
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",  // Path to your base HTML template
+      filename: "index.html",
     }),
   ],
 };
