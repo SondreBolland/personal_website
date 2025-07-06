@@ -19,7 +19,7 @@ const projects = [
   {
     title: "This website - sondrebolland.com",
     description:
-      "This website was made to showcase my academic and personal projects, in addition to teaching myself about web development.",
+      "This website was made to showcase my academic and personal projects, in addition to teach myself about web development.",
     website: "https://sondrebolland.com",
     github: "https://github.com/SondreBolland/personal_website",
   },
