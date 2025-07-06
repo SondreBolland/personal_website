@@ -5,9 +5,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "static/frontend/"),
     filename: "main.js",
-    publicPath: '/',
+    publicPath: '/static/frontend/',
   },
   module: {
     rules: [
@@ -32,10 +32,6 @@ module.exports = {
           process.env.NODE_ENV || "development"
         ),
       },
-    }),
-    new HtmlWebpackPlugin({
-      template: "./public/index.html",  // Path to your base HTML template
-      filename: "index.html",
     }),
   ],
 };
