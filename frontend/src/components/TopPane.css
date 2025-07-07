@@ -1,5 +1,5 @@
 .top-pane {
-  height: 62vh; /* 70% of viewport height */
+  height: 60vh; /* 70% of viewport height */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   box-sizing: border-box;
   background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
   background-size: 400% 400%;
-  animation: gradientAnimation 15s ease infinite;
+  animation: gradientAnimation 10s ease infinite;
 }
 
 .top-pane-content {
@@ -40,21 +40,22 @@
   justify-content: center;
 }
 
-.title-container { 
+.title-container {
   display: flex;
-  flex-direction: column;       /* Stack vertically */
-  align-items: center;          /* Center horizontally */
-  gap: 0rem;                  /* Smaller gap between name and position */
-  padding: 0rem 2rem;           /* Add padding for nicer spacing */
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Center horizontally */
+  gap: 0rem; /* Smaller gap between name and position */
+  padding: 0rem 2rem; /* Add padding for nicer spacing */
   margin: 0 auto;
-  width: fit-content;           /* Fits content but with padding */
+  width: fit-content; /* Fits content but with padding */
   z-index: 10;
   color: #ffffff;
 }
 
 .title-container h1,
 .title-container h3 {
-  margin: 0;             /* Removes default vertical margin */
+  align-items: center;
+  margin: 0; /* Removes default vertical margin */
   padding: 0;
 }
 
