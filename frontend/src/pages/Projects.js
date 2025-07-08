@@ -13,7 +13,7 @@ const projects = [
     title: "FestPlay - Festival Playlist Generator",
     description:
       "Get ready for your next festival or concert! This web app helps you generate personalized Spotify playlists based on what your favorite artists most frequently perform live.",
-    website: "https://sondrebolland.com/projects/festplay",
+    website: "https://sondrebolland.com/festplay/",
     github: "https://github.com/SondreBolland/FestPlay",
   },
   {
