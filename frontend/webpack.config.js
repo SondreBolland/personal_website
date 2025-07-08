@@ -4,8 +4,8 @@ const webpack = require("webpack");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "./static/frontend"),
-    filename: "[name].js",
+    path: path.resolve(__dirname, "static/frontend"),
+    filename: "main.js",
   },
   module: {
     rules: [
@@ -27,9 +27,7 @@ module.exports = {
     new webpack.DefinePlugin({
       "process.env": {
         // This has effect on the react lib size
-        "process.env.NODE_ENV": JSON.stringify(
-          process.env.NODE_ENV || "development"
-        ),
+        NODE_ENV: JSON.stringify("production"),
       },
     }),
   ],
