@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site is built using **Django** as
 
 ## Live Site
 
-[https://your-domain.com](https://your-domain.com)
+[https://sondrebolland.com/](https://sondrebolland.com/)
 
 ## Tech Stack
 
