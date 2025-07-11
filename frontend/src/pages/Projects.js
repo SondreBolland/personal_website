@@ -10,6 +10,13 @@ const projects = [
     github: "https://github.com/IngmarForsberg/Nordic-Programming-Test",
   },
   {
+    title: "Learning Space Expert Query Tool",
+    description:
+      "This tool helps build a Learning Space — a mathematical model of knowledge states over a set of tasks — by interactively querying experts through a GUI. Experts answer dependency queries about programming tasks, and the system incrementally refines the learning space model.",
+    website: "https://github.com/SondreBolland/expert_based_learning_space",
+    github: "https://github.com/SondreBolland/expert_based_learning_space",
+  },
+  {
     title: "FestPlay - Festival Playlist Generator",
     description:
       "Get ready for your next festival or concert! This web app helps you generate personalized Spotify playlists based on what your favorite artists most frequently perform live.",
