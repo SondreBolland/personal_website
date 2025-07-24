@@ -30,11 +30,11 @@ export default function HomePage() {
         initiative aimed at mapping students' programming knowledge before they
         begin university. PIKA is developed in collaboration with instructors
         from Norway and Sweden, and in 2024 it was completed by over 3,200
-        students across nine institutions. See <b>Projects</b> for further information.
+        students across nine institutions. See <b><a url="https://sondrebolland.com/projects">Projects</a></b> for further information.
       </p>
       <p>
         I love learning for research and education, but also for random skills
-        and party tricks. Take a look at <b>Learning</b>.
+        and party tricks. Take a look at <b><a url="https://sondrebolland.com/learning">Learning</a></b>.
       </p>
     </MainContentLayout>
   );
