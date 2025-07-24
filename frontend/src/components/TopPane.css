@@ -1,5 +1,6 @@
 .top-pane {
-  height: 60vh; /* 70% of viewport height */
+  min-height: 300px;          /* Ensures it doesn't get too short on mobile */
+  max-height: 400px;          /* Caps the height on large screens */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -11,6 +12,7 @@
   background-size: 400% 400%;
   animation: gradientAnimation 10s ease infinite;
 }
+
 
 .top-pane-content {
   display: flex;
