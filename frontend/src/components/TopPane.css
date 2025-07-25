@@ -1,6 +1,6 @@
 .top-pane {
-  min-height: 300px;          /* Ensures it doesn't get too short on mobile */
-  max-height: 400px;          /* Caps the height on large screens */
+  min-height: 300px; /* Ensures it doesn't get too short on mobile */
+  max-height: 400px; /* Caps the height on large screens */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,11 @@
   animation: gradientAnimation 10s ease infinite;
 }
 
+@media (max-width: 768px) {
+  .top-pane {
+    padding: 2rem 1rem;
+  }
+}
 
 .top-pane-content {
   display: flex;
@@ -28,13 +33,6 @@
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-
-/*.name {
-  font-size: 2rem;
-  font-weight: 600;
-  margin: 0;
-  text-align: center;
-}*/
 
 .nav-bar-container {
   width: 100%;
