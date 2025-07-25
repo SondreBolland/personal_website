@@ -17,7 +17,7 @@ Welcome to my personal portfolio website! This site is built using **Django** as
 - **About Me:** An introduction to who I am and what I do.
 - **Publications:** A list of academic and research publications with toggleable abstracts and external links.
 - **Projects:** Showcases selected projects with links and brief descriptions.
-- **Learning:** A dynamic section listing technologies and topics I'm currently exploring.
+- **Learning:** *Under construction*
 - **Footer:** Includes contact information and social/media links.
 - **"Hear My Name" Button:** Plays an audio clip of my name pronunciation.
 
