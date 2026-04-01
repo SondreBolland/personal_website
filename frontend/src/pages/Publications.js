@@ -3,12 +3,22 @@ import MainContentLayout from "../components/MainContentLayout";
 
 const publications = [
   {
+    id: "france2025",
+    title:
+      "Expérimentation du test PIKA dans les universités françaises en 2025: un premier retour d'expérience",
+    authors: "Sébastien Hoarau, Sondre Bolland, Antoine Meyer,  Martin Rosalie, Vincent Boudet, François Puitg, Christophe Declercq",
+    venue: "Didapro 11 - DidaSTIC 11th Francophone Conference on Computer Science Education",
+    link: "https://www.didapro.org/11/wp-content/uploads/sites/8/2026/03/Didapro_11_paper_12.pdf",
+    abstract:
+      "This paper reports on the experimentation of the PIKA test of programming knowledge and skills among students at twelve French universities at the start of the 2025 academic year. The PIKA test, developed at the University of Bergen in 2023 and updated annually, has been administered to eleven Nordic universities in 2024 and 2025. Its objective is to measure the impact of introducing computer science education at the upper secondary level in Norway in 2020 on the programming knowledge and skills of students entering university since 2023. \n\n The experiment conducted in France involved 1,025 first-year undergraduate students in computer science or related preparatory programs, and shows significantly better PIKA test results for students who followed the NSI (Numérique et Sciences Informatiques) specialization in their first year of high school. Overall analyses allow discussion of the skills most successfully mastered as well as students’ perceptions of the test. A detailed analysis by university makes it possible to examine differences in results depending on the mode of test administration and the specific characteristics of the student populations at each institution. \n\n The prospects range from extending the test to more study programs and universities to reflecting on how curricula can be adapted to the new skills of incoming students."
+  },
+  {
     id: "K-12Change",
     title:
-      "How Introduction of Programming to the K-12 Curriculum Influences Prior Knowledge for CS1 (PREPRINT)",
+      "How Introduction of Programming to the K-12 Curriculum Influences Prior Knowledge for CS1",
     authors: "Sondre Bolland, Torstein Strømme",
     venue: "CompEd '25: ACM Global Computing Education Conference 2025",
-    link: "https://github.com/SondreBolland/Research-Projects/blob/master/How_K_12_Curriculum_Change_Influence_Prior_Knowledge_in_CS1_PREPRINT.pdf",
+    link: "https://dl.acm.org/doi/abs/10.1145/3736181.3747147",
     abstract:
       "In 2020, the Norwegian curriculum in K-12 education (ISCED 1-3) was reformed to include computational thinking as a core element, and programming has since been integrated in subjects such as mathematics, science and arts. Starting with those who graduated from upper secondary school in 2023, Norwegian university freshmen will now have been exposed to programming with Python in their mathematics courses throughout upper secondary school. This newfound prior knowledge of programming in the student body could potentially have a significant effect on how introduction to programming in higher education (CS1) should be taught. \n\nWe analyze results of the Prior Informatics Knowledge Assessment (PIKA), which was administered to n = 3, 038 students that were about to begin their CS1 studies in one of eight different higher education institutions in Norway. We find that students who graduated from upper secondary school in 2023 or 2024 (and thus experienced the new curriculum) significantly outperform those who graduated earlier. Using Hodges-Lehmann estimator for central tendency we observe a pseudo-median difference of 23.9 out of 100 points. \n\nWe find that some groups have benefited more from the curriculum change than others. In particular, students that opt for the most advanced mathematics courses gain more from the new curriculum, meaning that the prior knowledge gap has increased with respect to mathematics background. Women also gained more than men, meaning that the gap is reduced with respect to gender.",
   },

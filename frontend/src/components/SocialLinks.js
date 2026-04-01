@@ -6,7 +6,7 @@ const links = [
   {
     text: "CV",
     icon: "fas fa-file-alt",
-    url: "https://raw.githubusercontent.com/SondreBolland/CV/master/CV%20english%202025.pdf",
+    url: "https://raw.githubusercontent.com/SondreBolland/CV/master/CV%20english.pdf",
   },
   {
     text: "GitHub",
